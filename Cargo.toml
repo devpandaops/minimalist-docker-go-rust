@@ -1,0 +1,13 @@
+[package]
+name = "http-example"
+version = "0.1.0"
+authors = ["David Vilaça <vilacapdavid@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "http"
+path = "src/http.rs"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
